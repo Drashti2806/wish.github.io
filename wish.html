@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wish.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    
+    <h3><b>To My Dear Harsh,</h3></b><br>
+    <p> Happiest Birthday to the most amazing person I've ever met! 💖
+
+        I hope only the best for you today and every day. You’re the best thing that’s ever happened to me, and I want to take a moment to remind you of how important and valuable you are. 😍</p>
+        
+        <p> You fill my life with love, laughter, and endless joy, and I’m so grateful to have you by my side. You are my rock, my confidant, my greatest blessing, my best friend, my secret keeper, and my moon during the darkest nights. You’re the one I can share anything with, without fear of being judged.
+        
+        Every time I look at you, I’m reminded of how blessed I am to have someone as incredible as you by my side.</p> 
+        <p> all i want to say is that <span class="audio-button" onclick="togglePlay('audio1', this)">
+        <i class="material-icons">play_arrow</i>
+    </span>
+    
+     And This is what you are mean to me <span class="audio-button" onclick="togglePlay('audio2', this)">
+        <i class="material-icons">play_arrow</i>
+    </span>
+        <audio id="audio1" src="Tu Hain Toh - Neeti Mohan _ Hindi Song.mp3"></audio>
+        <audio id="audio2" src="tu_hai_toh_mujhe_t.mp3"></audio>......
+    
+
+        You are the reason I smile, the reason I believe in love, and the reason my heart feels so full. I am lucky to call you mine, and I’m genuinely forever grateful for you. Thank you for everything. 💜
+        
+        I wish you all the happiness, success, and love that you deserve, and I will always be here to love and support you. Wishing you the very best, but you already have me... 👻😅</p>
+        
+        <p>Again, Happiest Birthday, Jadu! ✨ I love you more than words can say! 💖</p>
+
+    </p>
+    
+    
+    <script>
+        function togglePlay(audioId, element) {
+            var audio = document.getElementById(audioId);
+            var icon = element.querySelector('i');
+
+            // Check if the audio is paused or playing
+            if (audio.paused) {
+                // Play the audio and switch icon to pause
+                audio.play();
+                icon.textContent = 'pause';
+            } else {
+                // Pause the audio and switch icon to play
+                audio.pause();
+                icon.textContent = 'play_arrow';
+            }
+
+            // When the audio ends, switch the icon back to play
+            audio.onended = function() {
+                icon.textContent = 'play_arrow';
+            };
+        }
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body{
+    background-color:bisque;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: lighter;
+
+}
+p{
+    margin-left: 100px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: lighter;
+    
+}
+.audio-button {
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 24px; /* Adjust size as needed */
+    color: #24211d; /* You can change the color to suit your design */
+    vertical-align: middle;
+}
+
+.audio-button i {
+    transition: color 0.3s ease;
+}
+
+.audio-button:hover i {
+    color: #0d0d0d;
+}
+
+
